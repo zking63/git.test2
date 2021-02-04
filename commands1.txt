@@ -1,0 +1,28 @@
+cd 
+cd desktop
+mkdir test
+cd test
+touch index.html styles.css
+git init
+git add .
+git commit -m "first commit"
+git add origin [url]
+git push -u origin master
+git add .
+git commit -m updatehtml
+git push
+git add . 
+git commit -m updates
+git push
+git log 
+git revert -n daa29cbbd4675082d0c94802a8a7f6a8fafaa801
+git add .
+git commit -m revert
+git push
+git add .
+git commit -m recommit
+touch commands1.txt
+open commands1.txt
+git add .
+git commit -m commands
+git push
